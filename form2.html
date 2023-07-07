@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <label for="name">Name: </label>
+    <br/>
+    <input type="text" id="name">
+    <br/>
+    <label for="email">E-Mail: </label>
+    <br/>
+    <input type="email" id="email">
+    <br/>
+    <label for="phone">Phone: </label>
+    <br/>
+    <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    <br/>
+    <label for="file">Resume: </label>
+    <br/><br/>
+    <input type="file" id="file" value="Choose File">
+    <br/><br/>
+    <label for="experiencecounter">Experience(in years) </label>
+    <input type="number" min="0" max="50" name="counter" id="experiencecounter">
+    <br/>
+    <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" id="checkboxhtml">
+        <br/>
+        <label for="checkboxhtml">HTML</label>
+        <br/>
+        <input type="checkbox" id="checkboxcss">
+        <br/>
+        <label for="checkboxcss">CSS</label>
+        <br/>
+        <input type="checkbox" id="checkboxjavascript">
+        <br/>
+        <label for="checkboxjavascript">JavaScript</label>
+    </fieldset>
+    <br/>
+    <label for="education">Highest Education</label>
+    <select name="education" id="education">
+        <option value="Matric">Matric</option>
+        <option value="10+2">10+2</option>
+        <option value="undergraduate">undergraduate</option>
+        <option value="postgraduate">postgraduate</option>
+        <option value="PHD">PHD</option>
+    </select>
+    <FIELDset>
+        <LEGEND>Availability</LEGEND>
+        <label for="parttime">Part-Time</label>
+        <input type="radio" id="parttime" name="radio">
+        <br/><br/>
+        <label for="fulltime">Full-Time</label>
+        <input type="radio" id="fulltime" name="radio">
+        
+    </FIELDset>
+<label for="additionalcomments">Additional Comments: </label>
+<br/>
+    <textarea name="additonal comments" id="additonalcomments" cols="30" rows="10" style="resize: none;"></textarea>
+    <button>Register</button>
+</body>
+</html>
